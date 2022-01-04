@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("testando")
+	const nome string = "gabriel"
+	fmt.Printf(nome)
 }
